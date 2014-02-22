@@ -28,6 +28,7 @@ For some example of real use:
 ipextractfqdn < /var/log/snort/alert | sort -u
 dmesg | ipextractudp
 netstat -an | ipextractplusport
+ifconfig | ipextract6
 
 Automate usage:
 ---------------
